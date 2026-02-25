@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 int main() {
-    char letra = 'a'; 
+    char letra = 'o'; 
     printf("ASCII: %d\n", letra);
     return 0;
 }
