@@ -9,6 +9,7 @@ int main(void) {
     int numeros[5];
     int maior;
 
+/* \\\Calculando a media do aluno */
     printf("Digite as notas:\n")
     scanf("%lf %lf %lf", &n1, &n2, &n3);
     m = media(n1, n2, n3);
@@ -17,6 +18,7 @@ int main(void) {
     else if( m >= 5) printf("Recuperaçaõ\n");
     else printf("Reprovado\n");
 
+/* Buscando maior numero*/    
     printf("\nDigite 5 números inteiros:\n");
     for(int i = 0; i < 5; i++) {
         scanf("%d", &numeros[i]);
@@ -29,7 +31,7 @@ int main(void) {
     return 0;
 }
 
-// Função que calcula a média aritmética
-double media(double a, double b, double c) {
+/* // Função que calcula a média aritmética */
+    double media(double a, double b, double c) {
     return (a + b + c) / 3.0;
 }
